@@ -1,0 +1,907 @@
+{
+  "skipLink": "Skip to main content",
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "areas": "Areas of work",
+    "projects": "Projects",
+    "news": "News",
+    "publications": "Publications",
+    "involved": "Get involved",
+    "contact": "Contact",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "main": "Main navigation",
+    "language": "Choose language",
+    "switchToFr": "View the site in French",
+    "switchToEn": "View the site in English",
+    "campaigns": "Campaigns",
+    "team": "Team",
+    "partners": "Partners"
+  },
+  "brand": {
+    "name": "ADIVAH",
+    "fullName": "Association pour le Developpement Integral des Valeur Haitiennes",
+    "logoAlt": "ADIVAH logo"
+  },
+  "common": {
+    "colon": ": ",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "back": "Back",
+    "loading": "Loading…",
+    "sample": "Sample to be replaced",
+    "toComplete": "To be completed by ADIVAH",
+    "dateTbc": "Date to be confirmed",
+    "locationTbc": "Location to be confirmed",
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {{page}} of {{pages}}",
+    "all": "All",
+    "loadError": "This content could not be loaded. Please try again in a few moments.",
+    "retry": "Try again",
+    "empty": "Nothing to display yet.",
+    "date": "Date",
+    "location": "Location",
+    "status": "Status",
+    "category": "Category"
+  },
+  "areaKeys": {
+    "human-rights": "Human rights advocacy",
+    "social-justice": "Social justice and equality",
+    "community": "Community development",
+    "education": "Education and awareness",
+    "protection": "Protection of vulnerable people",
+    "citizenship": "Citizenship and democratic participation"
+  },
+  "projectStatus": {
+    "to-confirm": "To be confirmed",
+    "planned": "Planned",
+    "ongoing": "Ongoing",
+    "completed": "Completed"
+  },
+  "articleCategory": {
+    "announcement": "Announcements",
+    "human-rights": "Human rights",
+    "community": "Community activities",
+    "press": "Press releases",
+    "report": "Reports",
+    "education": "Educational articles"
+  },
+  "publicationType": {
+    "report": "Human rights reports",
+    "research": "Research documents",
+    "education": "Educational materials",
+    "organizational": "Organizational publications",
+    "resource": "PDF resources"
+  },
+  "home": {
+    "eyebrow": "Association pour le Developpement Integral des Valeur Haitiennes",
+    "headline1": "Defending human rights.",
+    "headline2": "Promoting dignity.",
+    "headline3": "Building a better future for Haiti.",
+    "ctaInvolved": "Get involved",
+    "ctaAbout": "Discover ADIVAH",
+    "introEyebrow": "Who we are",
+    "introTitle": "A Haitian organization serving human dignity",
+    "areasEyebrow": "What we stand for",
+    "areasTitle": "Our areas of work",
+    "projectsEyebrow": "In the field",
+    "projectsTitle": "Initiatives and activities",
+    "newsEyebrow": "Stay informed",
+    "newsTitle": "Latest news and announcements",
+    "volunteerTitle": "Become a volunteer",
+    "volunteerText": "Offer your time and skills to support human rights and social development in Haiti.",
+    "volunteerCta": "Offer my help",
+    "supportTitle": "Support our initiatives",
+    "supportText": "Online donations are not open yet. Write to us to find out how you can support our initiatives.",
+    "supportCta": "Write to us",
+    "contactTitle": "A question or a partnership proposal?",
+    "contactText": "Our team reads every message sent through the contact form.",
+    "contactCta": "Contact ADIVAH",
+    "intro": "Through its various initiatives alongside Haitian communities, ADIVAH works to promote human values, raise awareness of fundamental rights, and foster solidarity and integral development.",
+    "storyEyebrow": "Our story",
+    "storyTitle": "Years of Commitment to Human Dignity",
+    "storyText": "From Pyron to Léogâne, from Saint-Marc to Drouillard: a look back at activities carried out with young people and communities between 2014 and 2017.",
+    "storyCta": "Discover our story",
+    "photoContext": "Photo"
+  },
+  "about": {
+    "title": "About ADIVAH",
+    "intro": "A nonprofit organization committed to human rights and social development in Haiti.",
+    "draftNotice": "Provisional content: these texts are based on the mission provided by ADIVAH and must be validated before the public launch.",
+    "presentation": "About the organization",
+    "mission": "Our mission",
+    "vision": "Our vision",
+    "values": "Our values",
+    "objectives": "Our objectives",
+    "approach": "Our approach",
+    "commitment": "Our commitment to human rights and social development",
+    "imageLabel": "Photograph of ADIVAH",
+    "history": "Our story"
+  },
+  "areas": {
+    "title": "Our areas of work",
+    "intro": "Six complementary areas guide ADIVAH's commitment to a fairer, more inclusive and more peaceful Haitian society.",
+    "seeProjects": "See projects in this area",
+    "items": {
+      "human-rights": {
+        "text": "Protecting the fundamental rights and freedoms of every person, and promoting respect for them in Haiti.",
+        "points": [
+          "Promotion of fundamental rights",
+          "Advocacy for human dignity",
+          "Information on rights and freedoms"
+        ]
+      },
+      "social-justice": {
+        "text": "Acting against inequality and discrimination so that everyone is treated with fairness and respect.",
+        "points": [
+          "Equal treatment",
+          "Fighting discrimination",
+          "Fair access to opportunities"
+        ]
+      },
+      "community": {
+        "text": "Supporting sustainable development by placing communities at the heart of the solutions that concern them.",
+        "points": [
+          "Community-led initiatives",
+          "Strengthening local capacity",
+          "Sustainable development"
+        ]
+      },
+      "education": {
+        "text": "Raising awareness of everyone's rights and responsibilities so that all people can act with knowledge.",
+        "points": [
+          "Public awareness",
+          "Educational materials",
+          "Dialogue and training"
+        ]
+      },
+      "protection": {
+        "text": "Paying particular attention to those most at risk, so that their dignity and safety are preserved.",
+        "points": [
+          "Attention to those most at risk",
+          "Referral to appropriate services",
+          "Respect for dignity and confidentiality"
+        ]
+      },
+      "citizenship": {
+        "text": "Encouraging all citizens to take part in public life and in the decisions that affect their future.",
+        "points": [
+          "Civic education",
+          "Citizen participation",
+          "Democratic culture"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Our projects",
+    "intro": "ADIVAH's actions, presented by area of work and by status.",
+    "filterArea": "Filter by area",
+    "filterStatus": "Filter by status",
+    "empty": "No project matches these filters.",
+    "backToList": "Back to projects",
+    "details": "Project information"
+  },
+  "news": {
+    "title": "News",
+    "intro": "Announcements, human rights updates, community activities, press releases, reports and educational articles.",
+    "filter": "Filter by category",
+    "empty": "No articles in this category.",
+    "backToList": "Back to news",
+    "publishedOn": "Published on {{date}}"
+  },
+  "share": {
+    "title": "Share",
+    "facebook": "Facebook",
+    "x": "X",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "copy": "Copy link",
+    "copied": "Link copied"
+  },
+  "publications": {
+    "title": "Publications & resources",
+    "intro": "Reports, research documents, educational materials and organizational publications, free to download.",
+    "filter": "Filter by type",
+    "download": "Download PDF",
+    "unavailable": "Document coming soon",
+    "empty": "No publications of this type.",
+    "language": "Language",
+    "languages": {
+      "fr": "French",
+      "en": "English",
+      "both": "French and English"
+    },
+    "year": "Year"
+  },
+  "involved": {
+    "title": "Get involved",
+    "intro": "There are several ways to act alongside ADIVAH. Choose the one that suits you and write to us.",
+    "choose": "Choose",
+    "volunteer": {
+      "title": "Become a volunteer",
+      "text": "Offer your time and skills to the association's actions."
+    },
+    "partner": {
+      "title": "Become a partner",
+      "text": "Local and international organizations: let's build joint initiatives together."
+    },
+    "support": {
+      "title": "Support our initiatives",
+      "text": "Online donations are not open yet. Write to us to learn more about ways to support us."
+    },
+    "participate": {
+      "title": "Take part in our activities",
+      "text": "Join our awareness activities and community meetings."
+    },
+    "formTitle": "Your request",
+    "typeLabel": "I would like to"
+  },
+  "contact": {
+    "title": "Contact us",
+    "intro": "For any question, proposal or request for information, write to ADIVAH.",
+    "formTitle": "Send a message",
+    "infoTitle": "Contact details",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "social": "Social media",
+    "socialSoon": "Links coming soon",
+    "map": "Map",
+    "openMap": "Open map",
+    "sensitive": "This form is not a secure reporting channel. Do not include information that could put anyone at risk."
+  },
+  "form": {
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone (optional)",
+    "organization": "Organization (optional)",
+    "subject": "Subject",
+    "message": "Message",
+    "consent": "I agree that ADIVAH may use this information to respond to my request.",
+    "privacyLink": "Privacy policy",
+    "submit": "Send",
+    "sending": "Sending…",
+    "success": "Thank you! Your message has been sent to ADIVAH.",
+    "sendAnother": "Send another message",
+    "honeypot": "Do not fill in this field",
+    "required": "This field is required.",
+    "invalidEmail": "Please enter a valid email address.",
+    "nameShort": "Please enter at least 2 characters.",
+    "messageShort": "Your message must contain at least 10 characters.",
+    "consentRequired": "Your agreement is required to send this form.",
+    "fixErrors": "Please correct the highlighted fields."
+  },
+  "errors": {
+    "bad_request": "The request is not valid.",
+    "validation": "Some of the information is not valid.",
+    "unauthorized": "Your session has expired. Please sign in again.",
+    "forbidden": "You are not allowed to perform this action.",
+    "not_found": "Item not found.",
+    "conflict": "This item already exists.",
+    "rate_limited": "Too many attempts. Please try again later.",
+    "invalid_credentials": "Incorrect email or password, or account temporarily locked.",
+    "wrong_password": "The current password is incorrect.",
+    "file_type": "This file format is not allowed.",
+    "file_too_large": "This file is too large.",
+    "upload_failed": "The upload failed.",
+    "server_error": "An error occurred. Please try again.",
+    "network": "Could not reach the server. Check your connection and try again.",
+    "weak_password": "Password too weak: at least 12 characters, with a lowercase letter, an uppercase letter and a number, without your name or email.",
+    "invalid_token": "This link is invalid or has expired. Please request a new one.",
+    "content_locked": "This item is live: only a Content Administrator can change or withdraw it.",
+    "invalid_transition": "This action is not possible at this stage.",
+    "comment_required": "Please add a comment explaining the rejection.",
+    "invalid_date": "Please choose a future date.",
+    "in_use": "This file is used on the site. Remove it from the items using it, or replace it.",
+    "email_taken": "An account already exists with this address.",
+    "last_super_admin": "At least one active Super Administrator must remain.",
+    "self_action": "You cannot perform this action on your own account.",
+    "maintenance": "The website is under maintenance."
+  },
+  "footer": {
+    "areasFull": "Areas of work",
+    "tagline": "Defending human rights, promoting dignity and supporting social development in Haiti.",
+    "explore": "Explore",
+    "engage": "Take action",
+    "contact": "Contact details",
+    "privacy": "Privacy",
+    "rights": "All rights reserved.",
+    "admin": "Administrator area"
+  },
+  "privacy": {
+    "title": "Privacy",
+    "intro": "This page explains how the website handles the information you send.",
+    "collectTitle": "Information collected",
+    "collectText": "Forms collect only what you enter: name, email address, message and, if you wish, phone number and organization. Your IP address is not stored with your message; it is kept temporarily in memory to limit abuse.",
+    "useTitle": "How it is used",
+    "useText": "This information is used only to respond to your request. It is neither sold nor used for advertising, and only authorized administrators can access it.",
+    "cookiesTitle": "Cookies and storage",
+    "cookiesText": "The site uses no advertising or tracking tools. Your language choice is kept in your browser. A session cookie is used only for signed-in administrators.",
+    "rightsTitle": "Your rights",
+    "rightsText": "You can request access to your information or its deletion by using the contact form.",
+    "safetyTitle": "Your safety",
+    "safetyText": "This website is not yet a secure reporting channel. If your situation is sensitive, do not send details that could expose you or other people."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has been moved.",
+    "cta": "Back to home"
+  },
+  "admin": {
+    "title": "ADIVAH administration",
+    "viewSite": "View site",
+    "logout": "Sign out",
+    "nav": {
+      "dashboard": "Dashboard",
+      "projects": "Projects",
+      "articles": "News",
+      "publications": "Publications",
+      "messages": "Messages",
+      "settings": "Settings",
+      "account": "My account",
+      "campaigns": "Campaigns",
+      "team": "Team",
+      "partners": "Partners",
+      "siteContent": "Website text",
+      "media": "Media library",
+      "users": "Administrators",
+      "audit": "Activity log"
+    },
+    "login": {
+      "title": "Administrator sign in",
+      "email": "Email address",
+      "password": "Password",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "forgot": "Forgot your password?"
+    },
+    "dashboard": {
+      "welcome": "Hello {{name}}",
+      "intro": "Manage ADIVAH's website here, in French and English.",
+      "projects": "Projects",
+      "articles": "Articles",
+      "publications": "Publications and PDFs",
+      "newMessages": "Unread messages",
+      "samplesTitle": "{{count}} samples are still online",
+      "samplesText": "Replace or delete them before the site opens to the public. They carry a “Sample” badge in the lists.",
+      "publishedArticles": "Published articles",
+      "draftArticles": "Unpublished articles",
+      "campaigns": "Campaigns",
+      "team": "Team members",
+      "partners": "Partners",
+      "recent": "Recent activity",
+      "noRecent": "No activity yet.",
+      "pending_one": "{{count}} item is awaiting your approval.",
+      "pending_other": "{{count}} items are awaiting your approval.",
+      "quick": {
+        "newArticle": "New article",
+        "newProject": "New project",
+        "newPublication": "New publication",
+        "media": "Add an image"
+      }
+    },
+    "list": {
+      "add": "Add",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Permanently delete “{{title}}”?",
+      "empty": "Nothing here yet.",
+      "published": "Online",
+      "draft": "Draft",
+      "sample": "Sample",
+      "missingEn": "English missing",
+      "colTitle": "Title",
+      "colState": "State",
+      "colActions": "Actions",
+      "view": "View",
+      "search": "Search…",
+      "filterStatus": "Filter by state",
+      "allStatuses": "All states",
+      "noMatch": "No results for this search.",
+      "colUpdated": "Updated"
+    },
+    "editor": {
+      "new": "New item",
+      "edit": "Edit item",
+      "save": "Save",
+      "saving": "Saving…",
+      "saved": "Changes saved.",
+      "cancel": "Cancel",
+      "fr": "French",
+      "en": "English",
+      "invalid": "Please correct the highlighted fields.",
+      "fieldInvalid": "Invalid value.",
+      "fieldRequired": "This field is required.",
+      "isSample": "This is a sample to be replaced",
+      "bodyHelp": "Leave a blank line between paragraphs.",
+      "view": "View item",
+      "saveDraft": "Save draft"
+    },
+    "fields": {
+      "title": "Title",
+      "summary": "Summary",
+      "excerpt": "Standfirst (short summary)",
+      "body": "Full text",
+      "location": "Location",
+      "date": "Date",
+      "publishedAt": "Publication date",
+      "publishedAtHelp": "Leave empty to use today's date when publishing.",
+      "status": "Status",
+      "category": "Category",
+      "type": "Type",
+      "image": "Photograph",
+      "imageAlt": "Photograph description (for accessibility)",
+      "description": "Description",
+      "file": "PDF file",
+      "year": "Year",
+      "language": "Document language",
+      "name": "Name",
+      "position": "Position",
+      "bio": "Biography",
+      "order": "Display order",
+      "orderHelp": "Lower numbers appear first.",
+      "website": "Website (https://…)",
+      "campaignStatus": "Campaign state",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "datePrecision": "Date precision",
+      "precision": {
+        "day": "Exact day",
+        "month": "Month only",
+        "year": "Year only"
+      },
+      "gallery": "Activity gallery (display order)",
+      "featuredHelp": "Main photograph: shown on cards and when shared on social media."
+    },
+    "upload": {
+      "chooseImage": "Choose an image",
+      "chooseFile": "Choose a PDF",
+      "uploading": "Uploading…",
+      "remove": "Remove",
+      "imageHelp": "JPG, PNG or WebP, 5 MB maximum.",
+      "fileHelp": "PDF only, 25 MB maximum.",
+      "current": "Current file"
+    },
+    "resources": {
+      "projects": "Projects",
+      "articles": "News",
+      "publications": "Publications",
+      "campaigns": "Campaigns",
+      "team": "Team",
+      "partners": "Partners"
+    },
+    "messages": {
+      "title": "Messages received",
+      "empty": "No messages.",
+      "allTypes": "All types",
+      "allStatuses": "All states",
+      "types": {
+        "contact": "Contact",
+        "volunteer": "Volunteering",
+        "partner": "Partnership",
+        "support": "Support",
+        "participate": "Participation"
+      },
+      "statuses": {
+        "new": "New",
+        "read": "Read",
+        "archived": "Archived"
+      },
+      "markRead": "Mark as read",
+      "archive": "Archive",
+      "reply": "Reply",
+      "confirmDelete": "Permanently delete this message?",
+      "from": "From",
+      "filterType": "Filter by type",
+      "filterStatus": "Filter by state"
+    },
+    "settings": {
+      "title": "Settings",
+      "readOnly": "Only a Super Administrator can change this information.",
+      "images": "Logo and images",
+      "logo": "Official logo",
+      "hero": "Home page image",
+      "aboutImage": "About page image",
+      "contact": "Contact details",
+      "email": "Public email",
+      "phone": "Phone",
+      "address": "Address",
+      "mapUrl": "Map link (https://…)",
+      "socials": "Social media (full https://… links)",
+      "about": "Presentation texts",
+      "presentation": "Presentation",
+      "mission": "Mission",
+      "vision": "Vision",
+      "approach": "Approach",
+      "commitment": "Commitment",
+      "values": "Values (one per line)",
+      "objectives": "Objectives (one per line)",
+      "aboutIsDraft": "Show the “provisional content” notice on the About page",
+      "identity": "Identity",
+      "orgName": "Official organization name",
+      "orgNameHelp": "This official name is locked.",
+      "language": "Languages",
+      "languageHelp": "French is the website's default language.",
+      "englishEnabled": "Offer the English version",
+      "seo": "Search engines (SEO)",
+      "seoTitle": "Home page title",
+      "seoDescription": "Home page description",
+      "seoHelp": "Leave empty to keep the default text.",
+      "ogImage": "Social media sharing image",
+      "maintenance": "Maintenance mode",
+      "maintenanceEnabled": "Turn on maintenance mode",
+      "maintenanceWarning": "After saving, the public will only see the maintenance message.",
+      "maintenanceMessage": "Message shown to visitors",
+      "emailConfig": "Email configuration",
+      "mailOn": "Sending through {{host}}:{{port}}.",
+      "mailOff": "No email server is configured, so no notifications are sent. It is set in the server's environment variables (see DEPLOYMENT.md).",
+      "notificationEmail": "Address for new message alerts",
+      "notificationHelp": "Never shown on the site. If empty, Super Administrators are notified.",
+      "testMail": "Send me a test email",
+      "testMailOk": "Email sent.",
+      "testMailFail": "Sending failed."
+    },
+    "account": {
+      "title": "My account",
+      "changePassword": "Change password",
+      "current": "Current password",
+      "new": "New password",
+      "confirm": "Confirm new password",
+      "mismatch": "The two passwords do not match.",
+      "success": "Your password has been changed.",
+      "submit": "Change password",
+      "role": "Role"
+    },
+    "confirm": "Confirm",
+    "readOnly": "Read-only access: you can view this information but not change it.",
+    "passwordRules": "At least 12 characters, with a lowercase letter, an uppercase letter and a number, without your name or email.",
+    "roles": {
+      "super_admin": "Super Administrator",
+      "content_admin": "Content Administrator",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "navGroups": {
+      "content": "Content",
+      "site": "Site and messages",
+      "administration": "Administration"
+    },
+    "recovery": {
+      "forgotTitle": "Forgot password",
+      "forgotText": "Enter your address: if an account exists, you will receive a link valid for one hour.",
+      "send": "Send link",
+      "sent": "If an account matches this address, a link has just been sent to it.",
+      "back": "Back to sign in",
+      "resetTitle": "Choose a password",
+      "save": "Save password",
+      "done": "Your password has been saved. You can now sign in."
+    },
+    "workflow": {
+      "title": "Approval and publishing",
+      "status": {
+        "draft": "Draft",
+        "pending": "Pending review",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "published": "Published"
+      },
+      "scheduledFor": "Scheduled for {{date}}",
+      "saveFirst": "Save your changes before continuing the approval.",
+      "comment": "Reviewer comment (required when rejecting)",
+      "submit": "Submit for approval",
+      "approve": "Approve",
+      "reject": "Reject",
+      "publish": "Publish now",
+      "unpublish": "Withdraw from site",
+      "scheduleAt": "Schedule publication",
+      "schedule": "Schedule",
+      "cancelSchedule": "Cancel schedule",
+      "history": "History",
+      "confirm": {
+        "publish": "Publish this item on the public website?",
+        "unpublish": "Withdraw this item from the public website?"
+      },
+      "actions": {
+        "create": "created the item",
+        "edit": "edited the item",
+        "submit": "submitted for approval",
+        "approve": "approved",
+        "reject": "rejected",
+        "publish": "published",
+        "schedule": "scheduled publication",
+        "unpublish": "withdrew from the site"
+      }
+    },
+    "preview": {
+      "button": "Preview",
+      "title": "Preview",
+      "back": "Back to the item",
+      "device": "Device",
+      "language": "Language",
+      "desktop": "Desktop",
+      "tablet": "Tablet",
+      "mobile": "Mobile"
+    },
+    "media": {
+      "title": "Media library",
+      "intro": "All the images and PDFs on the website. Hidden photo data, such as GPS location, is removed automatically.",
+      "upload": "Upload a file",
+      "limits": "JPG, PNG or WebP images, 5 MB maximum. PDFs, 25 MB maximum. PDF metadata is not removed: check it before uploading.",
+      "pick": "Choose from library",
+      "empty": "No files yet.",
+      "category": "Category",
+      "kind": "Type",
+      "allCategories": "All categories",
+      "allKinds": "All types",
+      "images": "Images",
+      "documents": "PDFs",
+      "alt": "Accessibility description",
+      "description": "Description",
+      "replace": "Replace",
+      "missingAlt": "Description missing",
+      "confirmDelete": "Permanently delete “{{name}}”?",
+      "categories": {
+        "logo": "Logo",
+        "photo": "Photograph",
+        "project": "Project",
+        "team": "Team",
+        "partner": "Partner",
+        "report": "PDF report",
+        "other": "Other"
+      }
+    },
+    "users": {
+      "title": "Administrators",
+      "name": "Name",
+      "email": "Email address",
+      "role": "Role",
+      "create": "Create account",
+      "inviteHelp": "The person receives an email link to choose their own password.",
+      "inviteSent": "Account created and invitation sent.",
+      "resetSent": "Reset link sent.",
+      "mailNotSent": "Action saved, but the email could not be sent. Check the email configuration, or use the create-admin command on the server.",
+      "col": {
+        "name": "Person",
+        "role": "Role",
+        "status": "State",
+        "lastLogin": "Last sign-in",
+        "actions": "Actions"
+      },
+      "statuses": {
+        "active": "Active",
+        "suspended": "Suspended"
+      },
+      "locked": "Locked",
+      "never": "Never",
+      "sendReset": "Reset password",
+      "suspend": "Suspend",
+      "reactivate": "Reactivate",
+      "confirmSuspend": "Suspend {{name}}'s account? Their session will end.",
+      "confirmReactivate": "Reactivate {{name}}'s account?",
+      "confirmRole": "Give {{name}} the {{role}} role? Their session will end.",
+      "confirmDelete": "Delete {{name}}'s account? Their history stays in the log.",
+      "matrix": "What each role can do",
+      "permission": "Permission",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "permissions": {
+      "content_read": "View content",
+      "content_write": "Create and edit content",
+      "content_review": "Approve, reject and publish",
+      "content_delete": "Delete content",
+      "media_write": "Upload files",
+      "media_manage": "Replace and delete files",
+      "pages_write": "Edit website text",
+      "messages_manage": "Read and manage messages",
+      "settings_write": "Change settings",
+      "users_manage": "Manage accounts and roles",
+      "audit_read": "View the activity log"
+    },
+    "audit": {
+      "title": "Activity log",
+      "intro": "History of actions on the site. These entries cannot be changed or deleted from the dashboard.",
+      "empty": "No entries.",
+      "action": "Action",
+      "allActions": "All actions",
+      "col": {
+        "date": "Date and time",
+        "actor": "Person",
+        "action": "Action",
+        "target": "Item",
+        "details": "Details"
+      },
+      "actions": {
+        "login": "Sign-in",
+        "logout": "Sign-out",
+        "login_failed": "Failed sign-in",
+        "account_locked": "Account locked",
+        "password_changed": "Password changed",
+        "password_reset_requested": "Reset requested",
+        "password_reset": "Password reset",
+        "content": {
+          "create": "Item created",
+          "update": "Item edited",
+          "delete": "Item deleted",
+          "submit": "Submitted for approval",
+          "approve": "Item approved",
+          "reject": "Item rejected",
+          "schedule": "Publication scheduled",
+          "publish": "Item published",
+          "unpublish": "Item withdrawn"
+        },
+        "media": {
+          "upload": "File uploaded",
+          "update": "File described",
+          "replace": "File replaced",
+          "delete": "File deleted"
+        },
+        "message": {
+          "status": "Message state changed",
+          "delete": "Message deleted"
+        },
+        "settings": {
+          "update": "Settings changed"
+        },
+        "site_content": {
+          "update": "Website text changed"
+        },
+        "user": {
+          "create": "Account created",
+          "update": "Account edited",
+          "role_change": "Role changed",
+          "suspend": "Account suspended",
+          "reactivate": "Account reactivated",
+          "reset_sent": "Reset link sent",
+          "delete": "Account deleted"
+        }
+      }
+    },
+    "siteContent": {
+      "title": "Website text",
+      "intro": "Edit the text of public pages, separately in French and English. Changes go live as soon as you save.",
+      "tabs": {
+        "home": "Home",
+        "about": "About",
+        "areas": "Areas of work",
+        "contact": "Contact",
+        "footer": "Footer"
+      },
+      "areaTitle": "title",
+      "areaText": "description",
+      "areaPoints": "key points",
+      "oneByLine": "One point per line.",
+      "labels": {
+        "home": {
+          "headline1": "Main heading, line 1",
+          "headline2": "Main heading, line 2",
+          "headline3": "Main heading, line 3",
+          "ctaInvolved": "Main button",
+          "ctaAbout": "Second button",
+          "introEyebrow": "Introduction: label",
+          "introTitle": "Introduction: title",
+          "areasEyebrow": "Areas: label",
+          "areasTitle": "Areas: title",
+          "projectsEyebrow": "Projects: label",
+          "projectsTitle": "Projects: title",
+          "newsEyebrow": "News: label",
+          "newsTitle": "News: title",
+          "volunteerTitle": "Volunteering: title",
+          "volunteerText": "Volunteering: text",
+          "volunteerCta": "Volunteering: button",
+          "supportTitle": "Support: title",
+          "supportText": "Support: text",
+          "supportCta": "Support: button",
+          "contactTitle": "Contact: title",
+          "contactText": "Contact: text",
+          "contactCta": "Contact: button",
+          "intro": "Introduction under the main heading",
+          "storyEyebrow": "Our story: label",
+          "storyTitle": "Our story: title",
+          "storyText": "Our story: text",
+          "storyCta": "Our story: button"
+        },
+        "about": {
+          "title": "Page title",
+          "intro": "Introduction"
+        },
+        "areas": {
+          "title": "Page title",
+          "intro": "Introduction"
+        },
+        "contact": {
+          "title": "Page title",
+          "intro": "Introduction",
+          "sensitive": "Safety notice"
+        },
+        "footer": {
+          "tagline": "Tagline",
+          "rights": "Rights notice"
+        }
+      },
+      "storyImage": "“Our story” section photo",
+      "areaImage": "photograph",
+      "imageCaption": "Caption",
+      "captionHelp": "State the activity and date: the photo must not suggest a current project."
+    },
+    "history": {
+      "title": "Historical publication",
+      "help": "The standfirst is the subtitle, the full text is the introduction, and the photograph above is the main and social sharing image.",
+      "reviewNotes": "Review notes (never visible to the public)",
+      "logo": "Displayed logo",
+      "heroCaption": "Main image caption",
+      "timelineTitle": "Timeline title",
+      "sections": "Activities",
+      "date": "Displayed date",
+      "location": "Location",
+      "heading": "Heading",
+      "text": "Text",
+      "photos": "Photographs",
+      "photo": "Photograph",
+      "caption": "Caption",
+      "addPhoto": "Add a photograph",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "hidden": "Hide this section on the site",
+      "hiddenBadge": "hidden",
+      "addSection": "Add an activity",
+      "removeSection": "Remove this activity",
+      "confirmRemove": "Remove this activity from the publication?",
+      "closingTitle": "Closing: title",
+      "closingBody": "Closing: text",
+      "closingHighlight": "Closing: bold sentence",
+      "signature": "Signature",
+      "finalMessage": "Final message",
+      "seoTitle": "SEO title",
+      "seoDescription": "SEO description",
+      "seoKeywords": "Keywords"
+    }
+  },
+  "preview": {
+    "banner": "Preview: this page may not be published yet."
+  },
+  "maintenance": {
+    "title": "Site under maintenance",
+    "text": "The website is temporarily unavailable. Please come back a little later."
+  },
+  "team": {
+    "title": "Our team",
+    "intro": "The people behind ADIVAH.",
+    "empty": "Team members will be introduced here soon."
+  },
+  "partners": {
+    "title": "Our partners",
+    "intro": "The organizations working alongside ADIVAH.",
+    "empty": "Institutional partners will be introduced here soon.",
+    "website": "Visit website"
+  },
+  "campaigns": {
+    "title": "Our campaigns",
+    "intro": "ADIVAH's human rights campaigns.",
+    "empty": "No campaigns published yet.",
+    "backToList": "All campaigns",
+    "start": "Start",
+    "end": "End",
+    "status": {
+      "upcoming": "Upcoming",
+      "active": "Active",
+      "completed": "Completed"
+    }
+  },
+  "history": {
+    "related": "Related publications",
+    "allNews": "All news",
+    "allPublications": "All publications",
+    "read": "Read the full publication"
+  },
+  "gallery": {
+    "title": "Photograph",
+    "enlarge": "Enlarge photo",
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "close": "Close"
+  }
+}

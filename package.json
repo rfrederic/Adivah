@@ -1,0 +1,28 @@
+{
+  "name": "adivah",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Site institutionnel bilingue de l'Association pour le Developpement Integral des Valeur Haitiennes (ADIVAH)",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,cyan \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server",
+    "test": "npm run test -w server && npm run test -w client",
+    "seed": "npm run seed -w server",
+    "create-admin": "npm run create-admin -w server --",
+    "backup": "npm run backup -w server",
+    "restore": "npm run restore -w server --",
+    "seed:history": "npm run seed:history -w server",
+    "seed:activities": "npm run seed:activities -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}

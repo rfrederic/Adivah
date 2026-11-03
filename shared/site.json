@@ -1,0 +1,221 @@
+{
+  "orgName": "Association pour le Developpement Integral des Valeur Haitiennes (ADIVAH)",
+  "routes": {
+    "home": {
+      "fr": "/",
+      "en": "/en"
+    },
+    "about": {
+      "fr": "/a-propos",
+      "en": "/en/about"
+    },
+    "areas": {
+      "fr": "/domaines-intervention",
+      "en": "/en/areas-of-work"
+    },
+    "projects": {
+      "fr": "/projets",
+      "en": "/en/projects"
+    },
+    "news": {
+      "fr": "/actualites",
+      "en": "/en/news"
+    },
+    "publications": {
+      "fr": "/publications",
+      "en": "/en/publications"
+    },
+    "involved": {
+      "fr": "/nous-rejoindre",
+      "en": "/en/get-involved"
+    },
+    "contact": {
+      "fr": "/contact",
+      "en": "/en/contact"
+    },
+    "privacy": {
+      "fr": "/confidentialite",
+      "en": "/en/privacy"
+    },
+    "campaigns": {
+      "fr": "/campagnes",
+      "en": "/en/campaigns"
+    },
+    "team": {
+      "fr": "/equipe",
+      "en": "/en/team"
+    },
+    "partners": {
+      "fr": "/partenaires",
+      "en": "/en/partners"
+    }
+  },
+  "seo": {
+    "fr": {
+      "home": {
+        "title": "ADIVAH – Droits humains et développement social en Haïti",
+        "description": "L'Association pour le Developpement Integral des Valeur Haitiennes défend et promeut les droits humains, la dignité, la justice sociale et le développement communautaire en Haïti."
+      },
+      "about": {
+        "title": "À propos – ADIVAH",
+        "description": "Mission, vision, valeurs et engagement de l'ADIVAH pour les droits humains et le développement social en Haïti."
+      },
+      "areas": {
+        "title": "Nos domaines d'intervention – ADIVAH",
+        "description": "Droits humains, justice sociale, développement communautaire, éducation, protection des personnes vulnérables et participation démocratique."
+      },
+      "projects": {
+        "title": "Nos actions et projets – ADIVAH",
+        "description": "Découvrez les actions et les projets de l'ADIVAH en Haïti, par domaine d'intervention et par statut."
+      },
+      "news": {
+        "title": "Actualités – ADIVAH",
+        "description": "Annonces, communiqués de presse, activités communautaires et informations sur les droits humains en Haïti."
+      },
+      "publications": {
+        "title": "Publications et ressources – ADIVAH",
+        "description": "Rapports, documents de recherche et supports éducatifs de l'ADIVAH à télécharger."
+      },
+      "involved": {
+        "title": "Nous rejoindre – ADIVAH",
+        "description": "Devenez bénévole ou partenaire, soutenez nos initiatives et participez aux activités de l'ADIVAH."
+      },
+      "contact": {
+        "title": "Contact – ADIVAH",
+        "description": "Contactez l'Association pour le Developpement Integral des Valeur Haitiennes."
+      },
+      "privacy": {
+        "title": "Confidentialité – ADIVAH",
+        "description": "Comment l'ADIVAH traite les informations transmises par les formulaires de ce site."
+      },
+      "campaigns": {
+        "title": "Campagnes – ADIVAH",
+        "description": "Les campagnes de l'ADIVAH pour les droits humains en Haïti."
+      },
+      "team": {
+        "title": "Notre équipe – ADIVAH",
+        "description": "Les personnes qui font vivre l'ADIVAH."
+      },
+      "partners": {
+        "title": "Nos partenaires – ADIVAH",
+        "description": "Les partenaires institutionnels de l'ADIVAH."
+      }
+    },
+    "en": {
+      "home": {
+        "title": "ADIVAH – Human rights and social development in Haiti",
+        "description": "The Association pour le Developpement Integral des Valeur Haitiennes defends and promotes human rights, dignity, social justice and community development in Haiti."
+      },
+      "about": {
+        "title": "About us – ADIVAH",
+        "description": "ADIVAH's mission, vision, values and commitment to human rights and social development in Haiti."
+      },
+      "areas": {
+        "title": "Our areas of work – ADIVAH",
+        "description": "Human rights, social justice, community development, education, protection of vulnerable people and democratic participation."
+      },
+      "projects": {
+        "title": "Our projects – ADIVAH",
+        "description": "Explore ADIVAH's actions and projects in Haiti, by area of work and by status."
+      },
+      "news": {
+        "title": "News – ADIVAH",
+        "description": "Announcements, press releases, community activities and human rights updates from Haiti."
+      },
+      "publications": {
+        "title": "Publications & resources – ADIVAH",
+        "description": "Download ADIVAH's reports, research documents and educational materials."
+      },
+      "involved": {
+        "title": "Get involved – ADIVAH",
+        "description": "Volunteer, become a partner, support our initiatives and take part in ADIVAH's activities."
+      },
+      "contact": {
+        "title": "Contact – ADIVAH",
+        "description": "Get in touch with the Association pour le Developpement Integral des Valeur Haitiennes."
+      },
+      "privacy": {
+        "title": "Privacy – ADIVAH",
+        "description": "How ADIVAH handles information sent through the forms on this website."
+      },
+      "campaigns": {
+        "title": "Campaigns – ADIVAH",
+        "description": "ADIVAH's human rights campaigns in Haiti."
+      },
+      "team": {
+        "title": "Our team – ADIVAH",
+        "description": "The people behind ADIVAH."
+      },
+      "partners": {
+        "title": "Our partners – ADIVAH",
+        "description": "ADIVAH's institutional partners."
+      }
+    }
+  },
+  "editableText": {
+    "home": [
+      "home.headline1",
+      "home.headline2",
+      "home.headline3",
+      "home.intro",
+      "home.ctaInvolved",
+      "home.ctaAbout",
+      "home.introEyebrow",
+      "home.introTitle",
+      "home.areasEyebrow",
+      "home.areasTitle",
+      "home.projectsEyebrow",
+      "home.projectsTitle",
+      "home.newsEyebrow",
+      "home.newsTitle",
+      "home.volunteerTitle",
+      "home.volunteerText",
+      "home.volunteerCta",
+      "home.supportTitle",
+      "home.supportText",
+      "home.supportCta",
+      "home.contactTitle",
+      "home.contactText",
+      "home.contactCta",
+      "home.storyEyebrow",
+      "home.storyTitle",
+      "home.storyText",
+      "home.storyCta"
+    ],
+    "about": [
+      "about.title",
+      "about.intro"
+    ],
+    "areas": [
+      "areas.title",
+      "areas.intro",
+      "areaKeys.human-rights",
+      "areaKeys.social-justice",
+      "areaKeys.community",
+      "areaKeys.education",
+      "areaKeys.protection",
+      "areaKeys.citizenship",
+      "areas.items.human-rights.text",
+      "areas.items.human-rights.points",
+      "areas.items.social-justice.text",
+      "areas.items.social-justice.points",
+      "areas.items.community.text",
+      "areas.items.community.points",
+      "areas.items.education.text",
+      "areas.items.education.points",
+      "areas.items.protection.text",
+      "areas.items.protection.points",
+      "areas.items.citizenship.text",
+      "areas.items.citizenship.points"
+    ],
+    "contact": [
+      "contact.title",
+      "contact.intro",
+      "contact.sensitive"
+    ],
+    "footer": [
+      "footer.tagline",
+      "footer.rights"
+    ]
+  }
+}

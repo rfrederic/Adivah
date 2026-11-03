@@ -1,0 +1,12 @@
+export const AREAS = ['human-rights', 'social-justice', 'community', 'education', 'protection', 'citizenship'];
+export const PROJECT_STATUSES = ['to-confirm', 'planned', 'ongoing', 'completed'];
+export const ARTICLE_CATEGORIES = ['announcement', 'human-rights', 'community', 'press', 'report', 'education'];
+export const PUBLICATION_TYPES = ['report', 'research', 'education', 'organizational', 'resource'];
+export const SUBMISSION_TYPES = ['contact', 'volunteer', 'partner', 'support', 'participate'];
+export const SUBMISSION_STATUSES = ['new', 'read', 'archived'];
+export const ROLES = ['super_admin', 'content_admin', 'editor', 'viewer'];
+export const USER_STATUSES = ['active', 'suspended'];
+export const WORKFLOW_STATUSES = ['draft', 'pending', 'approved', 'rejected', 'published'];
+export const CAMPAIGN_STATUSES = ['upcoming', 'active', 'completed'];
+export const MEDIA_CATEGORIES = ['logo', 'photo', 'project', 'team', 'partner', 'report', 'other'];
+export const SOCIALS = ['facebook', 'instagram', 'x', 'youtube', 'linkedin', 'whatsapp'];
