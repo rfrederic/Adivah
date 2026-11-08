@@ -2,6 +2,30 @@
 
 The application is one Node.js process plus MongoDB. It needs a server with a **persistent disk**, because uploaded photographs and PDFs are stored on disk. Hosts with temporary file systems will lose uploads on each redeploy unless a persistent volume is attached.
 
+## Option: Vercel
+
+The project also runs on Vercel (`vercel.json`, `api/index.mjs`). There, uploads are stored in **Vercel Blob** instead of on disk.
+
+1. **Database.** Create a free MongoDB Atlas cluster and a database user. Under *Network Access*, allow `0.0.0.0/0`, because Vercel has no fixed IP address. Copy the connection string.
+2. **Project.** On vercel.com, choose *Add New → Project* and import the GitHub repository. Keep the root directory as `./`. The build settings come from `vercel.json`.
+3. **Storage.** In the project, go to *Storage → Create → Blob*. Connect it to the project; this adds `BLOB_READ_WRITE_TOKEN` automatically.
+4. **Environment variables** (*Settings → Environment Variables*):
+   - `NODE_ENV=production`
+   - `MONGODB_URI=` the Atlas connection string
+   - `JWT_SECRET=` at least 32 random characters
+   - `SITE_URL=https://your-project.vercel.app`, or your own domain
+   - `TRUST_PROXY=1`
+   - `CRON_SECRET=` at least 16 random characters
+   - the SMTP variables, if you want emails
+5. **Deploy**, then create the first administrator from your computer. Set the Atlas URI temporarily in `server/.env` and run `npm run create-admin`. Put `server/.env` back afterwards.
+
+Limits on Vercel:
+- Uploaded files are limited to **4 MB** each.
+- Scheduled posts go online at the first visit after their time, and at least once a day through the Vercel cron job.
+- `npm run backup` does not include files stored in Blob. Use Atlas backups for the database.
+- Login rate limits apply separately on each server instance.
+- The free *Hobby* plan is for non-commercial use only. Check Vercel's terms for the association.
+
 ## 1. Database
 
 Use MongoDB Atlas or your own MongoDB server. Create a dedicated database user, restrict network access to your server, and turn on backups.

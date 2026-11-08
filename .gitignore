@@ -7,3 +7,7 @@ dist/
 # Fichiers téléversés par les administrateurs (à sauvegarder séparément)
 server/uploads/*
 !server/uploads/.gitkeep
+
+# Vercel
+.vercel
+server/vercel-template/

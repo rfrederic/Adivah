@@ -1,6 +1,4 @@
-import fs from 'node:fs/promises';
-import path from 'node:path';
-import { env } from '../config/env.js';
+import { deleteUpload } from './storage.js';
 
 export const UPLOAD_URL_PATTERN = /^\/uploads\/(images|documents)\/[a-f0-9-]{36}\.(jpg|png|webp|pdf)$/;
 
@@ -10,6 +8,5 @@ export const STATIC_IMAGE_PATTERN = /^\/images\/(?!.*\.\.)[\p{L}\p{N} ._'’-]+\
 /** Supprime un fichier téléversé à partir de son URL. Ignore tout ce qui n'est pas une URL d'upload valide. */
 export async function removeUpload(url) {
   if (!url || !UPLOAD_URL_PATTERN.test(url)) return;
-  const relative = url.replace(/^\/uploads\//, '');
-  await fs.rm(path.join(env.UPLOAD_DIR, relative), { force: true });
+  await deleteUpload(url.replace(/^\/uploads\//, ''));
 }

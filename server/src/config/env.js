@@ -27,6 +27,8 @@ const schema = z.object({
   BACKUP_DIR: z.string().default(path.join(serverRoot, '..', '..', 'adivah-backups')),
   BACKUP_KEY: z.string().optional(),
   BACKUP_KEEP: z.coerce.number().int().positive().default(14),
+  // Vercel : secret de la tâche planifiée (fourni automatiquement à /api/cron/publish par Vercel).
+  CRON_SECRET: z.string().min(16).optional(),
 });
 
 const parsed = schema.safeParse(process.env);

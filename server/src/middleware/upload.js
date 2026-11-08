@@ -1,17 +1,17 @@
 import crypto from 'node:crypto';
-import fs from 'node:fs/promises';
-import path from 'node:path';
 import { fileTypeFromBuffer } from 'file-type';
 import multer from 'multer';
 import sharp from 'sharp';
-import { env } from '../config/env.js';
 import { ApiError } from '../lib/errors.js';
+import { saveUpload } from '../lib/storage.js';
 
 const MAX_IMAGE_WIDTH = 2400;
 
+// Sur Vercel, une requête ne peut pas dépasser 4,5 Mo : les envois y sont limités à 4 Mo.
+const PLATFORM_MAX = process.env.VERCEL ? 4 * 1024 * 1024 : Infinity;
 const KINDS = {
-  image: { dir: 'images', maxBytes: 5 * 1024 * 1024, types: { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp' } },
-  document: { dir: 'documents', maxBytes: 25 * 1024 * 1024, types: { 'application/pdf': 'pdf' } },
+  image: { dir: 'images', maxBytes: Math.min(5 * 1024 * 1024, PLATFORM_MAX), types: { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp' } },
+  document: { dir: 'documents', maxBytes: Math.min(25 * 1024 * 1024, PLATFORM_MAX), types: { 'application/pdf': 'pdf' } },
 };
 
 export const receiveFile = (kind) => multer({ storage: multer.memoryStorage(), limits: { fileSize: KINDS[kind].maxBytes, files: 1 } }).single('file');
@@ -27,11 +27,9 @@ export async function storeFile(kind, file) {
   const extension = detected && config.types[detected.mime];
   if (!extension) throw new ApiError(400, 'file_type');
   const stored = kind === 'image' ? await sanitizeImage(file.buffer, extension) : { buffer: file.buffer };
-  const dir = path.join(env.UPLOAD_DIR, config.dir);
-  await fs.mkdir(dir, { recursive: true });
   const name = `${crypto.randomUUID()}.${extension}`;
-  await fs.writeFile(path.join(dir, name), stored.buffer, { flag: 'wx', mode: 0o644 });
-  return { url: `/uploads/${config.dir}/${name}`, size: stored.buffer.length, width: stored.width ?? null, height: stored.height ?? null };
+  const url = await saveUpload(`${config.dir}/${name}`, stored.buffer, detected.mime);
+  return { url, size: stored.buffer.length, width: stored.width ?? null, height: stored.height ?? null };
 }
 
 /**

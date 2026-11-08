@@ -2,6 +2,10 @@ import rateLimit from 'express-rate-limit';
 import helmet from 'helmet';
 import { env } from '../config/env.js';
 import { ApiError } from '../lib/errors.js';
+import { usesBlob } from '../lib/storage.js';
+
+// Les fichiers stockés dans Vercel Blob sont servis depuis ce domaine.
+const BLOB_HOST = 'https://*.public.blob.vercel-storage.com';
 
 export const securityHeaders = () =>
   helmet({
@@ -11,7 +15,7 @@ export const securityHeaders = () =>
         defaultSrc: ["'self'"],
         scriptSrc: ["'self'"],
         styleSrc: ["'self'"],
-        imgSrc: ["'self'", 'data:'],
+        imgSrc: ["'self'", 'data:', ...(usesBlob ? [BLOB_HOST] : [])],
         fontSrc: ["'self'"],
         connectSrc: ["'self'"],
         objectSrc: ["'none'"],
