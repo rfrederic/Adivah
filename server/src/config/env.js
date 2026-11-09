@@ -35,6 +35,12 @@ const parsed = schema.safeParse(process.env);
 if (!parsed.success) {
   const details = parsed.error.issues.map((i) => `  - ${i.path.join('.')}: ${i.message}`).join('\n');
   console.error(`Configuration invalide (voir server/.env.example) :\n${details}`);
+  // Sur Vercel, on signale l'erreur au lieu d'arrêter la fonction (seuls les noms des réglages sont indiqués).
+  if (process.env.VERCEL) {
+    const error = new Error('invalid_config');
+    error.settings = parsed.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`);
+    throw error;
+  }
   process.exit(1);
 }
 
